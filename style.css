@@ -1,0 +1,24 @@
+.tooltip {
+	position: relative;
+    top: -1330px;
+}
+
+.icon:hover + .tooltip-content{
+
+	opacity: 1;
+}
+
+.tooltip-content {
+    background: black;
+    color: white;
+    opacity: 0;
+
+}
+
+.icon {
+	position: relative;
+    top: 5px; left: 350px;
+}
+
+
+
